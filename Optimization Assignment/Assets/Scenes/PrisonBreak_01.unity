@@ -409,6 +409,13 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Main Camera - TPD - Rotation
       m_Flags: 0
+<<<<<<< Updated upstream
+=======
+  m_CurrentPosition: {x: 0, y: 0, z: 0}
+  m_CurrentRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_RotationBound: 0
+  m_PositionBound: 0
+>>>>>>> Stashed changes
 --- !u!81 &850579949
 AudioListener:
   m_ObjectHideFlags: 0
@@ -524,10 +531,15 @@ MonoBehaviour:
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
   m_WidthCurve:
+<<<<<<< Updated upstream
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
+=======
+    m_Curve:
+    - time: 0
+>>>>>>> Stashed changes
       value: 1
       inSlope: 0
       outSlope: 0
@@ -535,8 +547,12 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
+<<<<<<< Updated upstream
     - serializedVersion: 3
       time: 1
+=======
+    - time: 1
+>>>>>>> Stashed changes
       value: 1
       inSlope: 0
       outSlope: 0
@@ -548,6 +564,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ValidColorGradient:
+<<<<<<< Updated upstream
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
     key1: {r: 1, g: 1, b: 1, a: 1}
@@ -573,10 +590,53 @@ MonoBehaviour:
     atime5: 0
     atime6: 0
     atime7: 0
+=======
+    key0:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    key1:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    key2:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key3:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key4:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key5:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key6:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key7:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+>>>>>>> Stashed changes
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   m_InvalidColorGradient:
+<<<<<<< Updated upstream
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 1}
     key1: {r: 1, g: 0, b: 0, a: 1}
@@ -602,6 +662,48 @@ MonoBehaviour:
     atime5: 0
     atime6: 0
     atime7: 0
+=======
+    key0:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
+    key1:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
+    key2:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key3:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key4:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key5:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key6:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key7:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+>>>>>>> Stashed changes
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
@@ -610,6 +712,24 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
+<<<<<<< Updated upstream
+=======
+  m_ReticlePos: {x: 0, y: 0, z: 0}
+  m_ReticleNormal: {x: 0, y: 0, z: 0}
+  m_EndPositionInLine: 0
+  m_SnapCurve: 1
+  m_PerformSetup: 0
+  m_ReticleToUse: {fileID: 0}
+  m_LineRenderer: {fileID: 1337516637}
+  m_TargetPoints: []
+  m_NoTargetPoints: -1
+  m_RenderPoints: []
+  m_NoRenderPoints: -1
+  m_PreviousRenderPoints: []
+  m_NoPreviousRenderPoints: -1
+  m_CustomReticle: {fileID: 0}
+  m_CustomReticleAttached: 0
+>>>>>>> Stashed changes
 --- !u!120 &1337516637
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -729,13 +849,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1823373110}
   m_InteractionLayerMask:
+<<<<<<< Updated upstream
     serializedVersion: 2
+=======
+>>>>>>> Stashed changes
     m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -745,6 +869,28 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
+=======
+    m_CallsDirty: 1
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+    m_CallsDirty: 1
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+    m_CallsDirty: 1
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+    m_CallsDirty: 1
+  m_AllowHover: 1
+  m_AllowSelect: 1
+  m_EnableInteractions: 0
+  m_IsPerformingManualInteraction: 0
+  <selectTarget>k__BackingField: {fileID: 0}
+  m_RequiresRegistration: 1
+  m_RegisteredInteractionManager: {fileID: 0}
+>>>>>>> Stashed changes
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_PlayAudioClipOnSelectEntered: 0
@@ -767,6 +913,13 @@ MonoBehaviour:
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
+<<<<<<< Updated upstream
+=======
+  m_Controller: {fileID: 0}
+  m_ToggleSelectActive: 0
+  m_WaitingForSecondDeactivate: 0
+  m_EffectsAudioSource: {fileID: 0}
+>>>>>>> Stashed changes
   m_LineType: 0
   m_MaxRaycastDistance: 30
   m_ReferenceFrame: {fileID: 0}
@@ -781,7 +934,10 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_RaycastMask:
+<<<<<<< Updated upstream
     serializedVersion: 2
+=======
+>>>>>>> Stashed changes
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
   m_KeepSelectedTargetValid: 1
@@ -792,6 +948,20 @@ MonoBehaviour:
   m_UseForceGrab: 1
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
+<<<<<<< Updated upstream
+=======
+  m_OriginalAttachTransform: {fileID: 0}
+  m_XRRig: {fileID: 0}
+  m_SamplePoints: []
+  m_NoSamplePoints: -1
+  m_CurrentNearestObject: {fileID: 0}
+  m_LastTimeHoveredObjectChanged: 0
+  m_PassedHoverTimeToSelect: 0
+  m_HitCount: 0
+  m_HitPositionInLine: -1
+  m_InputModule: {fileID: 0}
+  m_RegisteredInputModule: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!114 &1337516639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,6 +984,41 @@ MonoBehaviour:
   m_ModelDeSelectTransition: 
   m_AnchorControlDeadzone: 0.75
   m_AnchorControlOffAxisDeadzone: 0.3
+<<<<<<< Updated upstream
+=======
+  m_SelectInteractionState:
+    m_Active: 0
+    m_ActivatedThisFrame: 0
+    m_DeactivatedThisFrame: 0
+  m_ActivateInteractionState:
+    m_Active: 0
+    m_ActivatedThisFrame: 0
+    m_DeactivatedThisFrame: 0
+  m_UIPressInteractionState:
+    m_Active: 0
+    m_ActivatedThisFrame: 0
+    m_DeactivatedThisFrame: 0
+  m_HideControllerModel: 0
+  m_ControllerState:
+    time: 0
+    poseDataFlags: 3
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    selectInteractionState:
+      m_Active: 0
+      m_ActivatedThisFrame: 0
+      m_DeactivatedThisFrame: 0
+    activateInteractionState:
+      m_Active: 0
+      m_ActivatedThisFrame: 0
+      m_DeactivatedThisFrame: 0
+    uiPressInteractionState:
+      m_Active: 0
+      m_ActivatedThisFrame: 0
+      m_DeactivatedThisFrame: 0
+  m_ModelGO: {fileID: 0}
+  m_PerformSetup: 1
+>>>>>>> Stashed changes
   m_PositionAction:
     m_UseReference: 1
     m_Action:
@@ -996,10 +1201,15 @@ MonoBehaviour:
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
   m_WidthCurve:
+<<<<<<< Updated upstream
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
+=======
+    m_Curve:
+    - time: 0
+>>>>>>> Stashed changes
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1007,8 +1217,12 @@ MonoBehaviour:
       weightedMode: 0
       inWeight: 0
       outWeight: 0
+<<<<<<< Updated upstream
     - serializedVersion: 3
       time: 1
+=======
+    - time: 1
+>>>>>>> Stashed changes
       value: 1
       inSlope: 0
       outSlope: 0
@@ -1020,6 +1234,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ValidColorGradient:
+<<<<<<< Updated upstream
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
     key1: {r: 1, g: 1, b: 1, a: 1}
@@ -1045,10 +1260,53 @@ MonoBehaviour:
     atime5: 0
     atime6: 0
     atime7: 0
+=======
+    key0:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    key1:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    key2:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key3:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key4:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key5:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key6:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key7:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+>>>>>>> Stashed changes
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   m_InvalidColorGradient:
+<<<<<<< Updated upstream
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 1}
     key1: {r: 1, g: 0, b: 0, a: 1}
@@ -1074,6 +1332,48 @@ MonoBehaviour:
     atime5: 0
     atime6: 0
     atime7: 0
+=======
+    key0:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
+    key1:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
+    key2:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key3:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key4:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key5:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key6:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+    key7:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+>>>>>>> Stashed changes
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
@@ -1082,6 +1382,24 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
+<<<<<<< Updated upstream
+=======
+  m_ReticlePos: {x: 0, y: 0, z: 0}
+  m_ReticleNormal: {x: 0, y: 0, z: 0}
+  m_EndPositionInLine: 0
+  m_SnapCurve: 1
+  m_PerformSetup: 0
+  m_ReticleToUse: {fileID: 0}
+  m_LineRenderer: {fileID: 2073931672}
+  m_TargetPoints: []
+  m_NoTargetPoints: -1
+  m_RenderPoints: []
+  m_NoRenderPoints: -1
+  m_PreviousRenderPoints: []
+  m_NoPreviousRenderPoints: -1
+  m_CustomReticle: {fileID: 0}
+  m_CustomReticleAttached: 0
+>>>>>>> Stashed changes
 --- !u!120 &2073931672
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1201,13 +1519,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1823373110}
   m_InteractionLayerMask:
+<<<<<<< Updated upstream
     serializedVersion: 2
+=======
+>>>>>>> Stashed changes
     m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -1217,6 +1539,28 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
+=======
+    m_CallsDirty: 1
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+    m_CallsDirty: 1
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+    m_CallsDirty: 1
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+    m_CallsDirty: 1
+  m_AllowHover: 1
+  m_AllowSelect: 1
+  m_EnableInteractions: 0
+  m_IsPerformingManualInteraction: 0
+  <selectTarget>k__BackingField: {fileID: 0}
+  m_RequiresRegistration: 1
+  m_RegisteredInteractionManager: {fileID: 0}
+>>>>>>> Stashed changes
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_PlayAudioClipOnSelectEntered: 0
@@ -1239,6 +1583,13 @@ MonoBehaviour:
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
+<<<<<<< Updated upstream
+=======
+  m_Controller: {fileID: 0}
+  m_ToggleSelectActive: 0
+  m_WaitingForSecondDeactivate: 0
+  m_EffectsAudioSource: {fileID: 0}
+>>>>>>> Stashed changes
   m_LineType: 0
   m_MaxRaycastDistance: 30
   m_ReferenceFrame: {fileID: 0}
@@ -1253,7 +1604,10 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_RaycastMask:
+<<<<<<< Updated upstream
     serializedVersion: 2
+=======
+>>>>>>> Stashed changes
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
   m_KeepSelectedTargetValid: 1
@@ -1264,6 +1618,20 @@ MonoBehaviour:
   m_UseForceGrab: 1
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
+<<<<<<< Updated upstream
+=======
+  m_OriginalAttachTransform: {fileID: 0}
+  m_XRRig: {fileID: 0}
+  m_SamplePoints: []
+  m_NoSamplePoints: -1
+  m_CurrentNearestObject: {fileID: 0}
+  m_LastTimeHoveredObjectChanged: 0
+  m_PassedHoverTimeToSelect: 0
+  m_HitCount: 0
+  m_HitPositionInLine: -1
+  m_InputModule: {fileID: 0}
+  m_RegisteredInputModule: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!114 &2073931674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,6 +1654,41 @@ MonoBehaviour:
   m_ModelDeSelectTransition: 
   m_AnchorControlDeadzone: 0.75
   m_AnchorControlOffAxisDeadzone: 0.3
+<<<<<<< Updated upstream
+=======
+  m_SelectInteractionState:
+    m_Active: 0
+    m_ActivatedThisFrame: 0
+    m_DeactivatedThisFrame: 0
+  m_ActivateInteractionState:
+    m_Active: 0
+    m_ActivatedThisFrame: 0
+    m_DeactivatedThisFrame: 0
+  m_UIPressInteractionState:
+    m_Active: 0
+    m_ActivatedThisFrame: 0
+    m_DeactivatedThisFrame: 0
+  m_HideControllerModel: 0
+  m_ControllerState:
+    time: 0
+    poseDataFlags: 3
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    selectInteractionState:
+      m_Active: 0
+      m_ActivatedThisFrame: 0
+      m_DeactivatedThisFrame: 0
+    activateInteractionState:
+      m_Active: 0
+      m_ActivatedThisFrame: 0
+      m_DeactivatedThisFrame: 0
+    uiPressInteractionState:
+      m_Active: 0
+      m_ActivatedThisFrame: 0
+      m_DeactivatedThisFrame: 0
+  m_ModelGO: {fileID: 0}
+  m_PerformSetup: 1
+>>>>>>> Stashed changes
   m_PositionAction:
     m_UseReference: 1
     m_Action:
@@ -1425,6 +1828,11 @@ MonoBehaviour:
   m_TrackingOriginMode: 1
   m_TrackingSpace: 3
   m_CameraYOffset: 1.36144
+<<<<<<< Updated upstream
+=======
+  m_CameraInitialized: 1
+  m_CameraInitializing: 0
+>>>>>>> Stashed changes
 --- !u!4 &2144711328
 Transform:
   m_ObjectHideFlags: 0
