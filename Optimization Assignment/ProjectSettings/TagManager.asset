@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Placeable
+  - projectile
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -13,26 +16,26 @@ TagManager:
   - UI
   - 
   - 
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - Hand
+  - HandHolding
+  - Grabbable
+  - Grabbing
+  - Releasing
   - Player
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
