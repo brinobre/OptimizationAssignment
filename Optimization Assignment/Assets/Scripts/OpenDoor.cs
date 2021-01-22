@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
-    private Animator anim;
-    // Start is called before the first frame update
+    private Rigidbody rb;
     void Start()
     {
-        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UnlockDoor()
     {
-        
+        rb.isKinematic = false;
     }
 }
