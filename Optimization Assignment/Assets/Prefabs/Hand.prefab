@@ -928,9 +928,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6028725851047536604}
   - component: {fileID: 6028725851047536605}
-  - component: {fileID: 2956864006241173425}
   - component: {fileID: 6028725851047536607}
-  - component: {fileID: 30387495625214228}
+  - component: {fileID: 2956864006241173425}
   m_Layer: 20
   m_Name: Hand
   m_TagString: Untagged
@@ -969,19 +968,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!135 &2956864006241173425
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6028725851047536606}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.16
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6028725851047536607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,7 +988,7 @@ MonoBehaviour:
   maxVelocity: 4
   maxFollowDistance: 0.75
   left: 0
-  palmTransform: {fileID: 0}
+  palmTransform: {fileID: 4735214901217228548}
   throwPower: 1.1
   reachDistance: 0.3
   disableIK: 0
@@ -1016,22 +1002,19 @@ MonoBehaviour:
   showGizmos: 0
   editorAutoGrab: 0
   useLayerBasedAutoGrab: 0
---- !u!114 &30387495625214228
-MonoBehaviour:
+--- !u!135 &2956864006241173425
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6028725851047536606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 245bee9b113e7144cb3549484bae2a0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  grabButton: 0
-  grabAxis: 1
-  squeezeButton: 4
+  serializedVersion: 2
+  m_Radius: 0.16
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6745115015393901480
 GameObject:
   m_ObjectHideFlags: 0

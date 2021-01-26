@@ -8,6 +8,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - buttonTrigger
+  - hammer
+  - keyTrigger
   layers:
   - Default
   - TransparentFX
